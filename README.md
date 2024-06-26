@@ -26,18 +26,17 @@ Comando para iniciar con el servidor
 npm run dev
 ```
 
-`````markdown
 ## Ejemplos
 
 ![imagen](public/notFound.png)
 
 ### Búsqueda de Películas
 
-````jsx
+```jsx
 <SearchBar onSearchSubmit={handleSearch} />
 <MovieList searchQuery={searchQuery} />
 
-```markdown
+
 ## Contribución
 
 ¡Gracias por considerar contribuir a este proyecto! Para contribuir, sigue estos pasos:
@@ -52,13 +51,15 @@ npm run dev
 ## Contacto
 
 Puedes encontrarme en LinkedIn para cualquier consulta adicional:
-[LinkedIn](https://www.linkedin.com/in/tuusuario/)
+[LinkedIn](https://www.linkedin.com/in/jeisson-cardenas/)
 
 También puedes visitar mi perfil de GitHub para ver más proyectos:
-[GitHub](https://github.com/tuusuario/)
+[GitHub](https://github.com/Jeissoncar97)
+```
+
 ````
-`````
 
 ```
 
 ```
+````
