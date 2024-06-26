@@ -28,14 +28,14 @@ npm run dev
 
 ## Ejemplos
 
-![imagen](public/notFound.png)
+![imagen](public/Screenshot.png)
 
 ### Búsqueda de Películas
 
 ```jsx
 <SearchBar onSearchSubmit={handleSearch} />
 <MovieList searchQuery={searchQuery} />
-
+```
 
 ## Contribución
 
@@ -46,8 +46,6 @@ npm run dev
 3. Haz tus cambios y asegúrate de que las pruebas pasen.
 4. Envía tu solicitud de extracción (pull request) explicando tus cambios.
 
-
-
 ## Contacto
 
 Puedes encontrarme en LinkedIn para cualquier consulta adicional:
@@ -55,11 +53,3 @@ Puedes encontrarme en LinkedIn para cualquier consulta adicional:
 
 También puedes visitar mi perfil de GitHub para ver más proyectos:
 [GitHub](https://github.com/Jeissoncar97)
-```
-
-````
-
-```
-
-```
-````
