@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+// Tipos para TypeScript
 interface MovieProps {
   Title: string;
   Year: string;
@@ -8,23 +9,26 @@ interface MovieProps {
   Poster: string;
 }
 
+// Componente funcional Movie que muestra la información de cada película
 const Movie: React.FC<MovieProps> = ({ Title, Year, Type, Poster }) => {
   return (
+    // Contenedor principal que muestra la película
     <div className=" max-w-6xl mx-auto flex text-center font-semibold shadow-md bg-white">
+      {/* Contenedor para la imagen de la película */}
       <div className="" style={{width:"270px", position:"relative", height:"400px"}}>
         <Image
-          src={Poster}
-          alt={Title}
-          className="object-cover"
-          layout='fill'
+          src={Poster} // URL del póster de la película
+          alt={Title} // Texto alternativo para la imagen
+          className="object-cover" // Estilo CSS para la imagen
+          layout='fill' // Configuración del layout para ocupar todo el contenedor
         />
       </div>
+      {/* Contenedor para la información textual de la película */}
       <div className='flex flex-col justify-center ' style={{width:"300px", position:"relative", height:"400px"}}>
-        <h2 className='text-3xl inline-block align-middle mb-6 text-indigo-900'>{Title}</h2>
-        <p className='text-xl mb-2'><strong>Año:</strong> {Year}</p>
-        <p className='text-xl'><strong>Tipo:</strong> {Type}</p>
+        <h2 className='text-3xl inline-block align-middle mb-6 text-indigo-900'>{Title}</h2> 
+        <p className='text-xl mb-2'><strong>Año:</strong> {Year}</p> 
+        <p className='text-xl'><strong>Tipo:</strong> {Type}</p> 
       </div>
-      
     </div>
   );
 };

@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Este es un proyecto hecho con [Next.js](https://nextjs.org/) iniciado con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# MovieApp
 
-First, run the development server:
+Aquí podrás buscar tu película o serie favorita, donde podrás ver el póster, título y año en que se realizó la película.
+
+## Tabla de Contenidos
+
+-   [Instalación](#instalación)
+-   [Uso](#uso)
+-   [Ejemplos](#ejemplos)
+-   [Contribución](#contribución)
+
+## Instalación
+
+1. Clona este repositorio: `git clone https://github.com/tuusuario/tuproyecto.git`
+2. Navega al directorio del proyecto: `cd tuproyecto`
+3. Instala las dependencias: `npm install`
+4. Configura las variables de entorno según sea necesario (solo es la api key que proporciona OMDB).
+
+## Uso
+
+Comando para iniciar con el servidor
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+`````markdown
+## Ejemplos
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![imagen](public/notFound.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Búsqueda de Películas
 
-## Learn More
+````jsx
+<SearchBar onSearchSubmit={handleSearch} />
+<MovieList searchQuery={searchQuery} />
 
-To learn more about Next.js, take a look at the following resources:
+```markdown
+## Contribución
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+¡Gracias por considerar contribuir a este proyecto! Para contribuir, sigue estos pasos:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Haz un fork del repositorio y clónalo localmente.
+2. Crea una nueva rama para tu contribución: `git checkout -b mi-contribucion`
+3. Haz tus cambios y asegúrate de que las pruebas pasen.
+4. Envía tu solicitud de extracción (pull request) explicando tus cambios.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contacto
+
+Puedes encontrarme en LinkedIn para cualquier consulta adicional:
+[LinkedIn](https://www.linkedin.com/in/tuusuario/)
+
+También puedes visitar mi perfil de GitHub para ver más proyectos:
+[GitHub](https://github.com/tuusuario/)
+````
+`````
+
+```
+
+```
