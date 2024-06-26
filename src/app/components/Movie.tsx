@@ -24,7 +24,7 @@ const Movie: React.FC<MovieProps> = ({ Title, Year, Type, Poster }) => {
         />
       </div>
       {/* Contenedor para la información textual de la película */}
-      <div className='flex flex-col justify-center ' style={{width:"300px", position:"relative", height:"400px"}}>
+      <div className='flex flex-col justify-center ' style={{width:"250px", position:"relative", height:"400px"}}>
         <h2 className='text-3xl inline-block align-middle mb-6 text-indigo-900'>{Title}</h2> 
         <p className='text-xl mb-2'><strong>Año:</strong> {Year}</p> 
         <p className='text-xl'><strong>Tipo:</strong> {Type}</p> 

@@ -99,7 +99,7 @@ const MovieList: React.FC<MovieListProps> = ({ searchQuery }) => {
                     Siguiente
                 </button>
             </div>
-            <div className="grid grid-cols-2 gap-20 py-20 max-w-7xl m-auto">
+            <div className="grid grid-cols-1 gap-10 py-20 max-w-7xl m-auto lg:grid-cols-2">
                 {/* Mapeo y renderizado de las películas */}
                 {movies.map((movie) =>
                     movie.Poster !== "N/A" ? (
