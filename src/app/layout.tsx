@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "JeMoviesApp",
+  title: "MoviesApp - Todo lo que puedas saber de una pelicula :)",
   description: "Busca tu pelicula favorita",
 };
 
