@@ -36,7 +36,9 @@ const Home = () => {
       {/* Componente de la lista de películas */}
       {/* Se pasa el valor actual de searchQuery como prop para realizar la búsqueda */}
       <MovieList searchQuery={searchQuery} />
-           
+      
+      <TopMovies/>
+
     </div>
   );
 };
