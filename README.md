@@ -13,8 +13,8 @@ Aquí podrás buscar tu película o serie favorita, donde podrás ver el póster
 
 ## Instalación
 
-1. Clona este repositorio: `git clone https://github.com/tuusuario/tuproyecto.git`
-2. Navega al directorio del proyecto: `cd tuproyecto`
+1. Clona este repositorio: `git clone https://github.com/Jeissoncar97/movieApp.git`
+2. Navega al directorio del proyecto: `cd movieApp`
 3. Instala las dependencias: `npm install`
 4. Configura las variables de entorno según sea necesario (solo es la api key que proporciona OMDB).
 
