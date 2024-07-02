@@ -13,19 +13,19 @@ interface MovieProps {
 const Movie: React.FC<MovieProps> = ({ Title, Year, Type, Poster }) => {
   return (
     // Contenedor principal que muestra la película
-    <div className=" max-w-6xl mx-auto flex text-center font-semibold shadow-md bg-white">
+    <div className=" max-w-6xl sm:h-96 mx-auto sm:flex text-center font-semibold shadow-md bg-white">
       {/* Contenedor para la imagen de la película */}
-      <div className="" style={{width:"270px", position:"relative", height:"400px"}}>
+      <div className="w-64 h-96 relative" >
         <Image
           src={Poster} // URL del póster de la película
           alt={Title} // Texto alternativo para la imagen
-          className="object-cover" // Estilo CSS para la imagen
+          className="object-fill w-full h-full" // Estilo CSS para la imagen
           layout='fill' // Configuración del layout para ocupar todo el contenedor
         />
       </div>
       {/* Contenedor para la información textual de la película */}
-      <div className='flex flex-col justify-center ' style={{width:"250px", position:"relative", height:"400px"}}>
-        <h2 className='text-3xl inline-block align-middle mb-6 text-indigo-900'>{Title}</h2> 
+      <div className='flex flex-col h28 justify-center w-64 sm:h-96 relative p-4 sp-p2' >
+        <h2 className='text-2xl sm:text-3xl inline-block align-middle mb-6 text-indigo-900'>{Title}</h2> 
         <p className='text-xl mb-2'><strong>Año:</strong> {Year}</p> 
         <p className='text-xl'><strong>Tipo:</strong> {Type}</p> 
       </div>

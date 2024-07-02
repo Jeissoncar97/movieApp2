@@ -39,7 +39,7 @@ const TopMovies: React.FC = () => {
 		};
 
 		fetchMoviesData();
-	}, []);
+	}, [movieTitles]);
 
 	return (
 		<div className="">
@@ -53,7 +53,7 @@ const TopMovies: React.FC = () => {
 							key={index}
 							className=" shadow-md flex flex-col item-center"
 						>
-							<div className="flex justify-center">
+							<div className="flex justify-center pt-4">
 								<img
 									src={movie.Poster}
 									alt={movie.Title}

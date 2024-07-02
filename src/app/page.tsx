@@ -7,6 +7,7 @@ import MovieIcon from './components/MovieIcon';
 import TopMovies from "./components/TopMovies"
 
 
+
 // Página principal 
 const Home = () => {
 
